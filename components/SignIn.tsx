@@ -3,7 +3,7 @@
 const Signin = () =>
 {
     return (  
-        <section id="signin" className="container bg-black/20 ml-40 mr-40">
+        <section id="signin" className="w-[600px] h-[500px] bg-black/20 mt-[900px] mr-50 ml-50">
             <div >
             <p >Sign In</p>
             <div>

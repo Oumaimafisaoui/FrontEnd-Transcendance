@@ -7,7 +7,7 @@ import fadeIn from '../app/variants';
 import Signin from '../components/SignIn';
 export default function Home() {
   return (
-    <div className=' min-h-screen  min-w-screen  mx-10 text-white flex flex-col flex-evenly  bg-white/10'>  
+    <div className='min-w-screen h-full mx-10 text-white flex flex-col flex-evenly  bg-white/10'>  
       <Nav />
       <Title />
       <motion.img  variants={fadeIn('up, 0.3')} initial="hidden" whileInView={'show'} viewport={{once: false, amount:0.7}} src={bg.src} />
