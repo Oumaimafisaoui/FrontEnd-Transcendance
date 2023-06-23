@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 
 const Title = () => {
     return (
-        <div className='mt-10 h-[300px]  mx-50 flex flex-col items-center justify-center'>
+        <div className='mt-40 h-[300px]  mx-50 flex flex-col items-center justify-center'>
         <motion.p className='text-5xl' variants={fadeIn('up, 0.3')} initial="hidden" whileInView={'show'} viewport={{once: false, amount:0.7}}>
           Welcome to PONG Game
         </motion.p>
