@@ -39,6 +39,7 @@ const Signin = () => {
        
        <div className=' w-1/3 flex flex-col justify-center'>
         <button className='bg-white mx-auto w-full rounded-2xl p-3 mt-10'>Log in with Intra</button>
+        <p className='mt-6 mx-auto text-white text-xs'>You do not have an account ? Sign Up</p>
        </div>
        <div className=' flex w-1/2 flex-col'>
        <p className="mb-4 text-2xl text-white">Sign in</p>

@@ -1,6 +1,6 @@
 
 export default function Home() {
   return (
-   <h1>outside</h1>
+   <h1 className="text-white">outside</h1>
   ) 
 }
