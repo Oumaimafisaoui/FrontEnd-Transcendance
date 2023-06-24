@@ -16,6 +16,13 @@ html {
   min-height: 100%;
 }
 
+
+
+label{
+  color: #fff;
+  margin: 20px;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   width: 100vw;
