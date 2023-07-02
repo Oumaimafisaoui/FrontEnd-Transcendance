@@ -1,43 +1,29 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-html {
-  min-height: 100%;
-}
-
-
-
-label{
-  color: #fff;
-  margin: 20px;
-}
-
+html,
 body {
-  font-family: 'Poppins', sans-serif;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  background: rgb(23, 0, 36);
+  max-width: 100vw;
+  overflow-x: hidden;
+  color: white;
+  background-color: black;
+}
 
-  background: linear-gradient(
-    180deg,
-    rgb(6, 0, 9) 0%,
-    rgba(81, 24, 108, 1) 35%,
-    rgba(93, 40, 117, 1) 50%,
-    rgba(122, 51, 153, 1) 65%,
-    rgba(120, 33, 158, 1) 100%
-  );
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+a{
+  text-decoration: none;
+  color: inherit
+}
+
+.container
+{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

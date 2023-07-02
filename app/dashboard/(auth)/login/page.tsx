@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './page.module.css'
-export const Page = () => {
+export const Login = () => {
   return (
-    <div>Page</div>
+    <div>Login</div>
   )
 }
 
-export default Page;
+export default Login;
