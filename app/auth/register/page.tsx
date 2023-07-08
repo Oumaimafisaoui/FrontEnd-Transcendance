@@ -14,7 +14,7 @@ export const Register = () => {
           <button className={styles.button}>Register</button>
 
         </form>
-        <Link href="login" passHref>Login with an existing account</Link>
+        <Link href="auth/login" passHref>Login with an existing account</Link>
     </div>
   )
 }
