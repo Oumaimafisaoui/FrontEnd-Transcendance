@@ -29,7 +29,7 @@ export default function Home() {
         Join us now and dive into the fun of Pong Game!
         
       </p>
-      <Button url="dashboard/register" text="Start Playing!"/>
+      <Button url="register" text="Start Playing!"/>
       </div>
       <div className={styles.item2}>
       <Image alt="" src={bg} className={styles.img} />

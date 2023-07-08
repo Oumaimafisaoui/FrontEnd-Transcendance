@@ -12,6 +12,7 @@ export const Login = () => {
           <input type="password" placeholder="Password" className={styles.input} required/> 
           <button className={styles.button}>Login</button>
           </div>
+          <div>Or</div>
           <div className={styles.auth}>
           <button className={styles.button}>Login with Intra</button>
           <button className={styles.button}>Login with Google</button>
