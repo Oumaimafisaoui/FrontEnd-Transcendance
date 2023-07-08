@@ -5,7 +5,6 @@ import styles from './page.module.css'
 // import Spline from '@splinetool/react-spline';
 import bg from '@/srcs/public/bg.png';
 import { TypeAnimation } from 'react-type-animation';
-import button from '@/srcs/components/Button/button'
 import Button from '../srcs/components/Button/button';
 
 export default function Home() {
@@ -25,8 +24,12 @@ export default function Home() {
     />
       <p className={styles.desc}>
         Join us now and dive into the fun of Pong Game!
+        Join us now and dive into the fun of Pong Game!
+        Join us now and dive into the fun of Pong Game!
+        Join us now and dive into the fun of Pong Game!
+        
       </p>
-      <Button url="signin" text="Start Playing!"/>
+      <Button url="dashboard/register" text="Start Playing!"/>
       </div>
       <div className={styles.item2}>
       <Image alt="" src={bg} className={styles.img} />

@@ -1,4 +1,103 @@
-.contact
+.container
 {
-    background-color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    /* background-color: antiquewhite; */
+    height: 100vh;
+    
+    /* background-color: blue; */
+}
+
+.form
+{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 50vw;
+    height: 30%;
+    /* background-color: aqua; */
+    border-radius: 50px;
+    gap: 40px;
+}
+
+
+.input
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(87, 83, 83);
+    height: 2rem;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: none;
+    outline: none;
+    color: aliceblue;
+}
+.auth
+{
+    /* background-color: saddlebrown; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.infos
+{
+    /* background-color: saddlebrown; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.button
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 2rem;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    background-color: rgba(245, 222, 179, 0);
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 2px solid rgb(159, 159, 159);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow:0px 4px 4px 0px hwb(286 48% 7%);
+    transition: transform 0.3s;
+    margin-top: 3rem;
+}
+
+.button:hover
+{
+    transform: scale(1.03);
+    box-shadow: 2px 4px 4px 0px hwb(184 48% 7%);
+}
+
+
+.title
+{
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 1rem;
+    align-self: center;
 }
